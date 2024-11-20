@@ -1,0 +1,44 @@
+body {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #fef8fb; /* Fondo pastel rosa claro */
+}
+
+th {
+  background-color: #f4a7c1; /* Rosa pastel */
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #fbe3eb; /* Rosa pastel muy claro */
+}
+
+h1 {
+  text-align: center;
+  color: #d681a6; /* Rosa pastel oscuro */
+}
+
+fieldset {
+  background-color: #ffe6ef; /* Rosa suave */
+  max-width: 100%;
+  padding: 16px;
+  border: 1px solid #f4a7c1; /* Bordes rosa pastel */
+}
+
+legend {
+  color: #d681a6; /* Rosa pastel oscuro */
+  margin-bottom: 0;
+  margin-left: 16px;
+}
+
+input[type=text] {
+  width: 100%;
+  background-color: #fbe3eb; /* Fondo pastel rosa claro */
+  border: 1px solid #f4a7c1;
+  color: #d681a6;
+  padding: 8px;
+}
+
+.cien {
+  width: 100%;
+}

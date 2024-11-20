@@ -1,0 +1,48 @@
+Proyecto CRUD de Productos.
+
+Este proyecto es una aplicación web que implementa un sistema CRUD (Crear, Leer, Actualizar, Borrar) para gestionar una lista de productos (tenis) a través de una interfaz web sencilla. Utiliza tecnologías comunes de desarrollo web como PHP, HTML y CSS.
+
+Funcionalidades del Proyecto
+Crear: Permite agregar nuevos productos (tenis) a la base de datos.
+Leer: Muestra una lista de productos existentes almacenados en la base de datos.
+Actualizar: Facilita la edición de productos ya registrados.
+Eliminar: Proporciona la opción de borrar productos del sistema.
+Estructura del Proyecto
+El proyecto sigue el patrón de diseño MVC (Modelo-Vista-Controlador):
+
+Controladores: Gestionan las solicitudes HTTP y se encargan de la lógica de negocio.
+Vistas: Plantillas HTML que muestran los datos al usuario.
+Modelos: Interactúan con la base de datos para realizar operaciones CRUD.
+Archivos Importantes:
+index.php: Punto de entrada de la aplicación.
+ControladorProducto.php: Controlador que maneja las operaciones de productos.
+ModeloProducto.php: Modelo que interactúa con la base de datos para las operaciones CRUD.
+vistas/: Carpeta que contiene las vistas, como los formularios de alta y las tablas que muestran los productos.
+public/css/main.css: Archivo CSS para los estilos de la interfaz.
+public/img/: Carpeta para imágenes (incluye el favicon).
+Instalación
+Clonar el repositorio en tu servidor local o entorno de desarrollo.
+
+bash
+Copiar código
+git clone https://github.com/usuario/proyecto-crud.git
+Configurar la base de datos. El proyecto utiliza MySQL como SGBD. Crea una base de datos e importa el archivo productos.sql ubicado en la carpeta database/.
+
+Configurar el archivo de configuración para la conexión con la base de datos en config.php.
+
+Asegurarse de que el servidor web (como Apache) esté configurado para servir los archivos de este proyecto.
+
+Acceder a la aplicación a través de http://localhost/proyecto-crud desde tu navegador.
+
+Tecnologías Utilizadas
+Backend: PHP para la lógica de negocio y el manejo de datos.
+Frontend: HTML, CSS para la interfaz gráfica.
+Base de datos: MySQL, con operaciones CRUD manejadas desde PHP.
+Patrón de diseño: MVC para la separación de lógica, vistas y modelos.
+Uso
+Crear Producto:
+Dirígete a la opción "Ingresar Nuevo Producto" y completa el formulario con la información requerida.
+Editar Producto:
+En la lista de productos, haz clic en el botón "Modificar" del producto que deseas editar.
+Eliminar Producto:
+En la lista de productos, haz clic en el botón "Borrar" para eliminar un producto.
